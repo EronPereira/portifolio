@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     background-color: black;
+    color: white;
 }
 
 header{
@@ -10,9 +11,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-    font-size: large;
-    font-weight: 1200;
+    padding: 25px;
+    font-size: x-large;
+    font-weight: bolder;
 
     figure{
         display: flex;
@@ -44,6 +45,37 @@ header{
     }
     a:hover{
         color: blue;   
+    }
+}
+section{
+    display: flex;
+}
+.introducao{
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    padding-top: 140px;
+    .espaco{
+        margin-left: 8vw;
+        padding: 12px;
+        justify-content: left;
+    }
+}
+
+figure img{
+    margin-left: 45px;
+    border-radius: 8%;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 18vw;
+    padding-top: 130px;
+    padding-bottom: 5vw;
+    a{     
+        padding-right: 28px;
     }
 }
 
