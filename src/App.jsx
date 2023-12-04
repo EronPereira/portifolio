@@ -3,7 +3,6 @@ import Sobre from "./components/Sobre";
 import Header from "./components/Header";
 import Projeto from "./components/Projeto"
 import Inicio from "./components/Inicio";
-import "./style.scss";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 
