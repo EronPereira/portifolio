@@ -6,7 +6,7 @@ function Sobre(){
     return(
         <>
             <section>
-                <h2>Meu nome é Eron Pereira Reis, sou estudante de Análise e Desenvolveminto de Sistemas.
+                <h2 id="texto">Meu nome é Eron Pereira Reis, sou estudante de Análise e Desenvolveminto de Sistemas.
                      No momento estou me preparando para ingressar no mercado 
                      como desenvolvedor backend ou no suporte administrativo de sistemas. Futuramente pretendo
                      seguir na área de segurança digital.</h2>
@@ -32,8 +32,11 @@ function Sobre(){
                     </ul>
                 </section>
                 <section class="competencias">
-                    <h1>Competencias</h1>
-                    <h2>Ao longo de minha tragetória obtive alguns badges no campo de redes e segurança.</h2>
+                    <div id="conteudo">
+                        <h1>Competencias</h1>
+                        <h2>Ao longo de minha tragetória obtive alguns badges no campo de redes e segurança.</h2>
+                    </div>
+                    
                     <div class="container2">
                         <img id="b1" src="/src/assets/b1.png" alt="" />
                         <img id="b2" src="/src/assets/b2.png" alt="" />

@@ -11,7 +11,7 @@ function Inicio(){
                 </figure> 
                 <div class="introducao">
                     <h1 class="espaco">Um dev? Um técnico? Suporte?</h1>
-                    <h2 class="espaco">Olá, meu nome é <u>Eron Pereira Reis</u>!</h2>
+                    <h2 class="espaco">Olá, meu nome é Eron Pereira Reis!</h2>
                     <h3 class="espaco">Conheça um pouco sobre mim!</h3>
                     <figure class="icons">
                         <a href="https://www.linkedin.com/in/eronpreis"><img src="./src/assets/linkedin.png" alt="Linkedin" /></a>
